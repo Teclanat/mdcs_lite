@@ -1,0 +1,37 @@
+<ion-menu [content]='menu'>
+    <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Options</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+    <ion-content>
+        <ion-list>
+            <ion-item>
+                <ion-icon name="md-cog" item-left></ion-icon>
+                <h3>Topology</h3>               
+            </ion-item>            
+            <ion-item>
+                <ion-icon name="md-speedometer" item-left></ion-icon>
+                <h3>Dashboard</h3>               
+            </ion-item>
+            <ion-item>
+                <ion-icon name="md-qr-scanner" item-left></ion-icon>
+                <h3>Inspection</h3>               
+            </ion-item>
+            <ion-item>
+                <ion-icon name="ios-build" item-left></ion-icon>
+                <h3>Settings</h3>               
+            </ion-item>
+            <ion-item>
+                <ion-icon name="md-power" item-left></ion-icon>
+                <h3>Exit</h3>               
+            </ion-item>            
+           
+            
+            
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav #menu [root] = "rootPage"></ion-nav>
